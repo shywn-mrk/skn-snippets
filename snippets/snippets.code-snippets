@@ -31,4 +31,10 @@
             "export default ${1:ComponentName}"
         ]
     },
+    "Use State": {
+        "prefix": "!ust",
+        "body": [
+            "const [value, setValue] = useState(${1:initialValue})",
+        ]
+    },
 }
