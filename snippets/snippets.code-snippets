@@ -1,0 +1,34 @@
+{
+    "Class Based Component": {
+        "prefix": "!cbc",
+        "body": [
+            "import React, { Component } from 'react'",
+            "$0",
+            "class ${1:ComponentName} extends Component {",
+            "\tstate = {",
+            "\t}",
+            "\trender() {",
+            "\t\treturn (",
+            "\t\t\t<div>COMPONENT</div>",
+            "\t\t)",
+            "\t}",
+            "}",
+            "$0",
+            "export default ${1:ComponentName}"
+        ]
+    },
+    "Functional Component": {
+        "prefix": "!fc",
+        "body": [
+            "import React from 'react'",
+            "$0",
+            "const ${1:ComponentName} = () => {",
+            "\treturn (",
+            "\t\t<div>COMPONENT</div>",
+            "\t)",
+            "}",
+            "$0",
+            "export default ${1:ComponentName}"
+        ]
+    },
+}
