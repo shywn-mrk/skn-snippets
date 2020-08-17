@@ -1,0 +1,21 @@
+{
+    "Simple Server Setup": {
+        "prefix": "ns",
+        "body": [
+            "const express = require('express')",
+            "",
+            "const app = express()",
+            "",
+            "app.get('/', (req, res) => {",
+            "\tres.send('Hello World!')",
+            "})",
+            "",
+            "const PORT = 5000",
+            "",
+            "app.listen(PORT, () => {",
+            "\tconsole.log(`Server running on port ${PORT}`)",
+            "\tconsole.log(`Visit http://127.0.0.1:${PORT}`)",
+            "})",
+        ]
+    }
+}

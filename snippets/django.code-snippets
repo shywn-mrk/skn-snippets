@@ -1,0 +1,32 @@
+{
+    "Media URL import": {
+        "prefix": "mui",
+        "body": [
+            "from django.conf import settings",
+            "from django.conf.urls.static import static"
+        ]
+    },
+    "Media URL": {
+        "prefix": "mu",
+        "body": [
+            "static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)"
+        ]
+    },
+    "Media Settings": {
+        "prefix": "ms",
+        "body": [
+            "MEDIA_ROOT = os.path.join(BASE_DIR, 'media')",
+            "MEDIA_URL = '/media/'"
+        ]
+    },
+    "Static Settings": {
+        "prefix": "ss",
+        "body": [
+            "STATIC_URL = '/static/'",
+            "STATICFILES_DIRS = (",
+            "\tos.path.join(BASE_DIR, 'config/static'),",
+            ")",
+            "STATIC_ROOT = os.path.join(BASE_DIR, 'static')"
+        ]
+    }
+}

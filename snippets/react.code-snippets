@@ -32,13 +32,13 @@
             "export default ${1:ComponentName}"
         ]
     },
-    "Use State": {
+    "useState": {
         "prefix": "!ust",
         "body": [
             "const [value, setValue] = useState(${1:initialValue})",
         ]
     },
-    "Use Effect": {
+    "useEffect": {
         "prefix": "!uft",
         "body": [
             "useEffect(() => {",
