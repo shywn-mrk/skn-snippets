@@ -1,6 +1,6 @@
 {
     "Class Based Component": {
-        "prefix": "!cbc",
+        "prefix": "cbc",
         "body": [
             "import React, { Component } from 'react'",
             "$0",
@@ -19,7 +19,7 @@
         ]
     },
     "Functional Component": {
-        "prefix": "!fc",
+        "prefix": "fc",
         "body": [
             "import React from 'react'",
             "$0",
@@ -33,13 +33,13 @@
         ]
     },
     "useState": {
-        "prefix": "!ust",
+        "prefix": "ust",
         "body": [
             "const [value, setValue] = useState(${1:initialValue})",
         ]
     },
     "useEffect": {
-        "prefix": "!uft",
+        "prefix": "uft",
         "body": [
             "useEffect(() => {",
             "\tfetch('${1:URL}')",
