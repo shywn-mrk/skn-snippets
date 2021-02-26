@@ -3,6 +3,7 @@
     "displayName": "skn-snippets",
     "description": "Simple Snippets Extension For Visual Studio Code",
     "version": "1.0.0",
+    "publisher": "shywn-mrk",
     "author": {
         "name": "Shayan Karimi",
         "email": "shayankarimi0078@gmail.com"
