@@ -29,5 +29,5 @@ This extention contains the most used snippets that I needed so I made this exte
 |`ns`|New Serializer|
 |`nw`|New ViewSet|
 
-### Contributing
+## Contributing
 You can find me on [twitter](https://twitter.com/shywn_mrk) or you can just create a pull request and I'll check.
