@@ -30,4 +30,4 @@ This extention contains the most used snippets that I needed so I made this exte
 |`nw`|New ViewSet|
 
 ## Contributing
-You can find me on [twitter](https://twitter.com/shywn_mrk) or you can just create a pull request and I'll check.
+You can find me on [Twitter](https://twitter.com/shywn_mrk) or you can just create a pull request and I'll check.
